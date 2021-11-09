@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  main{
+   background-image: url("https://www.semana.com/resizer/IzEaNf4FcqVvdvw72rviai77U74=/1200x675/filters:format(jpg):quality(50)//cloudfront-us-east-1.images.arcpublishing.com/semana/OBSSAO4PCRHRVENCSOVEAY54BQ.jpg");
+    width: 100vw;
+    height: 100vh;
+  }
+  html{
+    font-size: 65.5%
+  }
+  .cajita{
+    border:0.1rem red solid ;
+    width: 15rem;
+    height: 2rem;
+    background-color:black;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+  position: absolute;
+  top: 7rem;
+  left: 14rem;
+  border-radius: 1rem;
+  
+  }
+  .cajita2{
+    border:0.1rem red solid ;
+    border-radius: 1rem;
+    width: 40rem;
+    height: 20rem;
+    position:relative;
+    background-color: black;
+  top: 8rem;
+  left: 2rem;
+  
+  padding: 5rem;
+  }
+  
+  .vader-des{
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    bottom: -7.5rem;
+    font-size: 1.1rem;
+    
+  }
+  .cajita2 img{
+    width: 15rem;
+  height: 10rem;
+    position: absolute;
+    top: 2rem;
+    left: 12rem;
+  }
+  .nav{
+    background-color: black;
+    color: rgb(247, 210, 0);
+    height: 4rem;
+  
+  }
+  .nav li{
+    display:inline-block;
+    font-size: 2rem;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+   
+  }
+  .nav img{
+    width: 10rem;
+    height: 3rem;
+   
+  }
+  section{
+    position: absolute;
+    left: 40rem;
+    top: 10rem;
+  }
+  aside, section {
+    display: inline-block;
+    height: 80vh;
+  }
+  aside {
+    width: 12vw;
+    height: 100vh;
+    background-color: black;
+    color: rgb(247, 210, 0);
+  }
+  aside div {
+    height: 19vh;
+    margin: 3vh;
+    background-color: red;
+  }
